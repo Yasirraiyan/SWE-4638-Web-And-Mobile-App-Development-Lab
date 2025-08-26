@@ -1,0 +1,67 @@
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+    backgroundColor: "#fff",
+  },
+  heading: {
+    fontSize: 22,
+    fontWeight: "bold",
+    textAlign: "center",
+    marginBottom: 20,
+    color: "#4db6ac",
+  },
+  label: {
+    fontWeight: "bold",
+    marginBottom: 6,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    marginBottom: 16,
+  },
+  row: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    marginBottom: 16,
+  },
+  timeContainer: {
+    flex: 1,
+    marginRight: 10,
+  },
+  optionButton: {
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 8,
+    marginRight: 10,
+    marginBottom: 10,
+  },
+  selectedOption: {
+    backgroundColor: "#4db6ac",
+    borderColor: "#4db6ac",
+  },
+  optionText: {
+    color: "#000",
+  },
+  selectedOptionText: {
+    color: "#fff",
+    fontWeight: "bold",
+  },
+  button: {
+    backgroundColor: "#4db6ac",
+    paddingVertical: 12,
+    borderRadius: 8,
+    marginTop: 20,
+    marginBottom: 40,
+  },
+  buttonText: {
+    color: "#fff",
+    textAlign: "center",
+    fontWeight: "bold",
+  },
+});
